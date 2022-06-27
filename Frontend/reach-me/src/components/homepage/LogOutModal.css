@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat+Alternates:wght@100&family=PT+Sans&family=Rajdhani&display=swap');
+
+.Box {
+  z-index: 2;
+  background-color: #dbdbdb;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.LogoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ReachMeLogo {
+  min-width: 50px;
+  min-height: 50px;
+  margin-top: 20px;
+}
+
+
+.Logo {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-bottom: 0;
+  margin-left: 10px;
+  text-align: center;
+  margin-top: 25px;
+  color: #108c8e;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+#transition-modal-title {
+  font-weight: bolder;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+}
+
+#transition-modal-description {
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+}
+
+.FlexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bolder;
+}
+
+.StayOnPageButton {
+  padding: .6em;
+  margin: 1em;
+  outline: none;
+  color: white;
+  background-color: #108c8e;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  transition: transform .2s ease-in-out;
+  width: 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.LogOutButton {
+  padding: .6em;
+  margin: 1em;
+  outline: none;
+  color: white;
+  background-color: #094561;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  transition: transform .2s ease-in-out;
+  width: 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.StayOnPageButton:hover,
+.LogOutButton:hover {
+  transform: scale(1.1);
+}
+
+.LogOutSection {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bolder;
+  color: #108c8e;
+  margin-left: .5em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+}
+
+.LogOutSection:hover {
+  transform: scale(1.1);
+}

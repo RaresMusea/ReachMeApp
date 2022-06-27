@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat+Alternates:wght@100&family=PT+Sans&family=Rajdhani&display=swap');
+
+.LikesDialog{
+
+}
+
+.DialogTitle,.DialogTitleDislikes{
+    font-size:2em;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bolder;
+    padding-top:1em;
+    padding-left:1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    color:#108c8e;
+    text-align: center;
+}
+
+.DialogTitleDislikes{
+    color:orangered;
+}
+
+.List{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.UsersWhoLiked{
+    margin-bottom:.2em;
+    margin-top: .2em;
+    transition:.2s ease-in-out;
+}
+
+.UsersWhoLiked:hover{
+    background-color: #dbdbdb;
+    cursor:pointer;
+}
+
+.clickable{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+
+
+

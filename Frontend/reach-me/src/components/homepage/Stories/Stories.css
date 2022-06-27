@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat+Alternates:wght@100&family=PT+Sans&family=Rajdhani&display=swap');
+
+.StoriesContainer{
+  height:130px;
+  width:640px;
+  background-color: #fff;
+  border: 2px solid #dbdbdb;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 9px;
+  margin-top:5em;
+  display:flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.StoriesContainer::-webkit-scrollbar{
+  display:none;
+}
+
+.StoryProfilePicture{
+  min-width: 50px;
+  min-height: 50px;
+  padding:0;
+  border:4px solid #094561;
+}
+
+.StoryUsername{
+  font-family: 'PT Sans',sans-serif;
+  opacity:80%;
+  text-align: center;
+  font-size:.8em;
+  max-width:50px;
+  overflow-x: hidden;
+}
+
+.StoryElement{
+  margin:30px 15px;
+}
+
+.CreateStoryButton{
+  min-width: 50px;
+  min-height: 50px;
+  transition: .4s ease-in-out;
+}
+
+
+.CreateStoryButton:hover{
+  transform:scale(1.1);
+}

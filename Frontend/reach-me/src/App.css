@@ -1,0 +1,8 @@
+*::selection{
+  background-color: #108c8e;
+  color:white;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+

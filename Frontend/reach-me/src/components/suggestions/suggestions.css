@@ -1,0 +1,76 @@
+.Suggestions{
+  width:320px;
+  height: 300px;
+  margin-top:30px;
+}
+
+.controller{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom:20px;
+}
+
+.Text{
+  font-family: 'PT Sans',sans-serif;
+  opacity:55%;
+  font-size:1.1em;
+}
+
+.Button{
+  font-family: 'PT Sans',sans-serif;
+  color:#108c8e;
+  font-weight: bolder;
+  transition:.3s ease-out;
+  font-size:1.1em;
+}
+
+.Button:hover{
+  color:#094561;
+}
+
+
+.SuggestionsContents{
+  margin-top: 15px;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.SelectedSuggestionProfilePic{
+  max-width:40px;
+  max-height: 40px;
+}
+
+.Section{
+  display:flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-bottom:.5em;
+  width:400px;
+}
+
+.SuggestionUsername{
+  font-weight: bold;
+  font-family: 'PT Sans',sans-serif;
+  margin: 8px 0px 8px 8px;
+  vertical-align: center;
+}
+
+.ReachButton{
+  font-family: 'PT Sans',sans-serif;
+  color:#108c8e;
+  font-weight: bolder;
+  cursor:pointer;
+  padding-left: 2em;
+  justify-self: flex-end;
+}
+
+.FlexContainer{
+  display:flex;
+  justify-content:space-evenly;
+  align-items: center;
+
+}

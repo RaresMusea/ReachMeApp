@@ -1,0 +1,25 @@
+.alert{
+  position: absolute;
+  margin:0 auto;
+  top:80%;
+  right:50%;
+  left:20%;
+  background-color: #108c8e !important;
+}
+
+.PasswordField .ShowPass{
+  position: absolute;
+  left: 75%;
+  top: 55.5%;
+  margin-left:.6em;
+  transition:0.3s ease-in-out;
+}
+
+.PasswordField .ShowPass:hover{
+  transform: rotate(360deg);
+}
+
+.ShowPass{
+  max-width:15px;
+  max-height: 15px;
+}

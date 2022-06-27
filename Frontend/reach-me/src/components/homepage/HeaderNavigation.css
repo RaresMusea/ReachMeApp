@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat+Alternates:wght@100&family=PT+Sans&family=Rajdhani&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.NavigationController {
+  width: 100%;
+  height: 60px;
+  background-color: #ffff;
+  box-shadow: 0px 2px 2px #dbdbdb;
+  position: fixed;
+  z-index: 1;
+}
+
+.ReachMeLogo {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bolder;
+  color: #108c8e;
+  cursor: pointer;
+  font-size: 40px;
+  transition: transform .2s ease-in-out;
+  vertical-align: bottom;
+}
+
+
+.NavigationController {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FirstGrid {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5px;
+  transition: all .4s ease-in-out;
+}
+
+.FirstGrid:hover {
+  transform: translateX(-30px);
+}
+
+.SecondGrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.IconsDrawer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Icon {
+  width: 40px;
+  height: 40px;
+  margin-right: .5em;
+  transition: .4s ease-in-out;
+}
+
+.Icon:hover {
+  transform: scale(1.2);
+}
+
+.SearchArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SearchBar {
+  width: 400px;
+  height: 2.5em;
+  font-family: 'PT Sans', sans-serif;
+  background-color: #fafafa;
+  outline: none;
+  border: 1px solid #108c8e;
+  transition: .2s ease-in-out;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.SearchBar:focus {
+  border: 1px solid #094561;
+}
+
+.ProfilePic {
+  margin-left: 1em;
+  transition: .4s ease-in-out;
+}
+
+.ProfilePic:hover {
+  transform: scale(1.2);
+}
+
+#changeProfilePic{
+  display:none;
+}

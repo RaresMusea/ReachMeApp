@@ -1,0 +1,49 @@
+#alert-dialog-title{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #108c8e;
+    text-align: center;
+}
+
+#alert-dialog-description{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align:center;
+    color:orangered;
+}
+
+.KeepPost{
+    background: #094561;
+    color:white;
+    outline:none;
+    transition:.2s ease-in-out;
+    border-radius:9px;
+    padding:.6em;
+    font-family:'PT Sans',sans-serif;
+    font-weight: bold;
+    border:none;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.KeepPost:hover{
+    transform:translateY(-5px);
+}
+
+.RemovePost{
+    background: red;
+    color:white;
+    outline:none;
+    font-weight: bold;
+    transition:.2s ease-in-out;
+    border-radius:9px;
+    padding:.6em;
+    font-family:'PT Sans',sans-serif;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border:none;
+}
+
+.RemovePost:hover{
+    transform:translateY(-5px);
+}

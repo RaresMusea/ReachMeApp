@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat+Alternates:wght@100&family=PT+Sans&family=Rajdhani&display=swap');
+
+.CommentText {
+  font-family: 'PT Sans', sans-serif;
+  margin-left: 15px;
+}
+
+.CommentUserName {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bolder;
+}
+

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat+Alternates:wght@100&family=PT+Sans&family=Rajdhani&display=swap');
+
+.AppBar {
+  background-color: #108c8e !important;
+}
+
+.Title {
+  font-family: 'Rajdhani', sans-serif !important;
+  font-weight: bolder !important;
+  cursor: pointer;
+}
+
+.uploadIcon {
+  min-width: 60px;
+  min-height: 60px;
+  margin-top: 1em;
+  transition: transform .2s ease-in-out;
+}
+
+.uploadImage{
+  min-width: 60px;
+  min-height: 60px;
+  display:block;
+  margin:0 auto;
+  margin-top:20px;
+  transition:.4s ease-in-out;
+}
+
+.uploadImage:hover{
+  transform: rotate(360deg);
+}
+
+.uploadIcon:hover {
+  transform: scale(1.2);
+}
+
+.uploadContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#uploadFile {
+  display: none;
+}
+
+.PostVisualizer {
+  display: block;
+  margin: 0 auto;
+  max-height: 400px;
+}
+
+.preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.description,
+.LocationInput {
+  width: 250px;
+  height: 36px;
+  margin: 5px;
+  border: 1px solid #dbdbdb;
+  font-family: 'PT Sans', sans-serif;
+  border-radius: 5px;
+  padding-left: .5em;
+  background-color: #fafafa;
+  border: 1px solid #108c8e;
+  outline: none;
+  transition: 1s ease-in-out;
+  font-size: 1em;
+}
+
+.description {
+  padding: 10px;
+}
+
+.description:focus {
+  border-color: #094561;
+}
+
+.editPost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.FirstListItemText {
+  font-family: 'PT Sans', sans-serif  !important;
+  font-weight: bold !important;
+}
+.LocationIcon{
+  width:25px;
+  height:25px;
+  transition: .2s ease-in-out;
+  position:absolute;
+  left:56.5%;
+}
+
+.LocationIcon:hover{
+  transform:translateY(-3px);
+}
+
+.RetrieveUsersLocation{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
